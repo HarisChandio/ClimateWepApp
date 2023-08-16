@@ -1,0 +1,35 @@
+@media (min-width: 576px) and (max-width: 992px) {
+  .tablet-style {
+    margin-left: 1rem;
+  }
+  .weather-icon {
+    margin-top: 4rem;
+  }
+  .centerdegree {
+    margin-top: 3.9rem;
+  }
+  .cloud-rain {
+    margin-top: 3.8rem;
+  }
+  .weather-img {
+    margin-top: 2.5rem;
+  }
+  .cel{
+    font-size: 3rem !important;
+  }
+  .current-day-time{
+    font-size: 1rem !important;
+  }
+}
+.cel{
+    font-size: 5rem;
+}
+.deg-day {
+  margin-left: 1.5rem;
+}
+.cloud-rain {
+  margin-left: 1.5rem;
+}
+.weather {
+  background-color: white;
+}

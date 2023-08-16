@@ -1,0 +1,128 @@
+/* forecast style component */
+.forecast {
+  background-color: gainsboro;
+}
+/* forecast style component end */
+
+/* weeklyforeacast component */
+.icon-small {
+  width: 3rem;
+}
+
+.week-temp-font {
+  font-size: 0.7rem;
+}
+
+.week-card {
+  align-items: center;
+  justify-content: center;
+
+  height: 120px;
+  background-color: white;
+  ; /* Rainy color */
+  padding: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow */
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.week-card:hover {
+  transform: translateY(-5px); /* Apply a slight lift on hover */
+  cursor: pointer;
+}
+.highlight-card{
+  background-color: white;
+  transition: transform 0.2s; /* Add a smooth transition effect */
+}
+
+.highlight-card:hover {
+  transform: scale(1.05); /* Apply a slight lift on hover */
+  cursor: pointer;
+}
+
+.week-day {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+/* weeklyforeacast component end */
+
+/* today highlights */
+.title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+/* style.css */
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg {
+  height: 200px;
+  margin: auto;
+  display: block;
+}
+
+.circle {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.grey {
+  fill: none;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke: #e7e7e8;
+}
+
+.blue {
+  fill: none;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke: url(#gradient);
+  stroke-dasharray: 198;
+  animation: progress 3s ease-out forwards;
+}
+
+.dotline {
+  fill: none;
+  stroke: #707070;
+  stroke-width: 0.3;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 1.5029, 1.5029;
+}
+
+.needal {
+  fill: #fdb813;
+  transform-origin: center bottom;
+  position: absolute;
+  transition: transform 1s ease-out;
+}
+
+@keyframes progress {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* uv index end */
+@media (max-width:552px){
+  .highlight-text{
+    font-size: 1rem;
+  }
+}
+.time-deg{
+  font-size: 1rem;
+}
