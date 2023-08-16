@@ -28,7 +28,7 @@ const WeeklyForecast = ({ data }) => {
           <p className="title ms-4">Week</p>
           <div className="me-4">
             <button
-              className="btns rounded-5 border-0 me-2 button-29"
+              className=" button-29"
              
               onClick={handleUnitChange}
             >
