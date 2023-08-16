@@ -41,7 +41,7 @@ const CurrentWeather = ({ data }) => {
                 {data.weather[0].description}{" "}
               </span>
             </div>
-            <div className="mb-3">
+            {/* <div className="mb-3">
               <span>
                 <i
                   className="bi bi-reception-4 me-2"
@@ -49,7 +49,7 @@ const CurrentWeather = ({ data }) => {
                 />
               </span>
               <span className="textSarifBold ">Rain - 30%</span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

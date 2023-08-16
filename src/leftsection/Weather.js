@@ -35,7 +35,7 @@ const Weather = ({
       <div className="weather ">
         <Search onSearchChange={handleOnSearchChange}></Search>
         {currentWeather && (
-          <CurrentWeather className="tablet-style" data={currentWeather}></CurrentWeather>
+          <CurrentWeather className="" data={currentWeather}></CurrentWeather>
         )}
       </div>
     </div>

@@ -32,7 +32,7 @@ const Search = ({ onSearchChange }) => {
 
   return (
     <AsyncPaginate
-      placeholder="Search"
+      placeholder="Search City"
       value={search}
       loadOptions={loadOptions}
       onChange={handleOnChange}
