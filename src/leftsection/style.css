@@ -14,22 +14,32 @@
   .weather-img {
     margin-top: 2.5rem;
   }
-  .cel{
+  .cel {
     font-size: 3rem !important;
   }
-  .current-day-time{
+  .current-day-time {
     font-size: 1rem !important;
   }
 }
-.cel{
-    font-size: 5rem;
+.cel {
+  font-size: 5rem;
 }
-.deg-day {
-  margin-left: 1.5rem;
-}
-.cloud-rain {
-  margin-left: 1.5rem;
-}
+
 .weather {
   background-color: white;
+}
+
+@media (max-width: 768px) {
+  .tablet-size {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .deg-day {
+    margin-left: 1.5rem;
+  }
+  .cloud-rain {
+    margin-left: 1.5rem;
+  }
 }
