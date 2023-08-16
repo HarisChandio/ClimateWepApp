@@ -35,11 +35,8 @@
   }
 }
 
-@media (min-width: 768px) {
-  .deg-day {
-    margin-left: 1.5rem;
-  }
-  .cloud-rain {
-    margin-left: 1.5rem;
+@media (min-width: 992px) {
+  .deg-day, .cloud-rain {
+    margin-left: 2.5rem;
   }
 }
